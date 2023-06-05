@@ -6,38 +6,55 @@
   background-color: whitesmoke;
   border-color: gray;
   border-style: double;
-  border-bottom: none;
-  border-top: none;
   width: 70%;
-  height: 100%;
+  height: auto;
   padding-bottom: 5%;
   min-height: 100%;
   text-align: center;
 }
 
 .top {
-  background-image: url("resort-website/img/head1.png");
-  padding: 3rem;
+  color: black;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 800;
+  background-color: whitesmoke;
+  opacity: .9;
+  width: 70%;
+  height: 10%;
+  padding-top: 3rem;
+  padding-bottom: 5%;
   text-align: center;
+  margin: auto;
 }
 
-h1 {
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: whitesmoke;
+  padding: 25px;
+}
+
+/* h1 {
   color: black;
   font-family: 'Abril Fatface', cursive;
   font-size: 500%;
   font-weight: 800;
   text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: 1rem;
   padding-top: 50px;
-}
+  border-style: double;
+  border-bottom: auto;
+  margin: auto;
+} */
 
 h2 {
   text-align: center;
   font-family: 'Kurale', serif;
   color: black;
-  padding-top: 3rem;
+  padding-top: .5rem;
   border-bottom: 5px darkcyan groove;
-  margin-bottom: 50px;
+  margin-bottom: .5rem;
 }
 
 
